@@ -1,0 +1,22 @@
+user table (개인) | username , userid, userpw (password) , usermail, userphone, index
+로그인 , 회원가입에서 사용
+
+user2 table (기업) | username2 , userid2, userpw2, usermail2, userphone2, index2
+로그인 , 회원가입에서 사용
+
+resume table (이력서) | resumename, resumebirthdate (생년월일), resumegender,
+                             resumeaddress ,resumesalary(연봉), resumecontent(자기소개서),resumecareer(경력),resumeeducation(학력)
+이력서,자기소개서에서 사용
+
+job table(직무별) | management(경영,사무), marketing(마케팅,광고,홍보), it(it,인터넷), design(디자인), service(서비스) , Medical (의료)
+채용정보 직무별에서 사용
+
+area table(지역별) | seoul,busan,gyeonggi,incheon
+채용정보 지역별에서 사용
+
+게시판 | 각자 테이블로 resumeboard, newsboard, free Board(자유게시판), databoard, qaboard(질문게시판), jobsdataboard(채용정보)
+
+company table (회사공고) | companyname,companylogo,companycareer(경력),companyeducation(학력),
+		          companyarea(지역),companysalary(연봉),companymap,companydate(접수기간),companydata(기업정보)
+
+mypage table (마이페이지) | 

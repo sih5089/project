@@ -1,0 +1,47 @@
+일반회원
+general_member
+name  varchar2(20)
+rrn varchar2(13) 주민번호
+id varchar2(20)
+password varchar2(30)
+phone varchar2(12)
+email varchar2(50)
+
+기업회원
+id varchar2(20)
+password varchar2(30)
+company_member
+company_name varchar2(30)
+brn varchar2(20) 사업자 등록번호
+name varchar2(20)
+rrn varchar2(13)주민번호
+c_tel varchar2(20) 회사전화번호
+c_email varchar2(30) 회사 이메일
+
+지역 코드
+region_code   지역코드
+region_name  varchar2(13)
+region_code  number(3)
+
+하위 직무 코드
+job_code
+high_job_code number(2)
+low_job_code number(3)
+low_job_name(20)
+
+상위 직무 코드
+high_job_code number(2)
+high_job_name varchar2(20
+
+이력서
+id varchar2(20)
+name  varchar2(20)
+rrn varchar2(13)
+phone varchar2(12)
+email varchar2(50)
+address varchar2(60)
+
+이력서(학력)
+id varchar2(20)
+period data
+
